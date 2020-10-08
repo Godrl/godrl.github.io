@@ -14,17 +14,7 @@
 
 
 <script>
-	GitHubCalendar(".calendar", "Godrl");
-
-    // or enable responsive functionality:
     GitHubCalendar(".calendar", "Godrl", { responsive: true });
-
-    // Use a proxy
-    GitHubCalendar(".calendar", "Godrl", {
-       proxy (username) {
-         return fetch(`https://your-proxy.com/github?user=${username}`)
-       }
-    }).then(r => r.text())
   
   	document.getElementsByClassName('contrib-legend')[0].style.display = "none";
   	document.getElementsByClassName('calendar')[0].style.minHeight = "100px";
