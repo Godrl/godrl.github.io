@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: Godrl/godrl.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -9,7 +9,7 @@ version: 2
 name: Kim Hyunki
 title: Developer
 email: gusrl0515@gmail.com
-website: www.github.com/sproogen/resume-theme
+# website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
 darkmode: true
