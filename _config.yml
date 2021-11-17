@@ -92,18 +92,12 @@ content:
       - layout: left
         title: Front-end
         quote: >
-        description: | # this will include new lines to allow paragraphs
-          ES6
-          Webpack
-          Vuejs
+        description: ES6 | Webpack | Vuejs
       - layout: left
         title: Back-end
         quote: >
-        description: | # this will include new lines to allow paragraphs
-          Ruby, Python
-          Rails, Django
-
-       
+        description: Ruby, Python | Rails, Django
+          
           
   - title: A Little More About Me
     layout: text
