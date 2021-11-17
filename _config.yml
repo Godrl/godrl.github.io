@@ -91,12 +91,10 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        - layout: list
           title: Front-end
           quote: >
           description: ES6, Webpack, Vuejs | 
       - layout: left
-        - layout: list
           title: Back-end
           quote: >
           description: Ruby, Python | Rails, Django
