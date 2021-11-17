@@ -91,13 +91,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-          title: Front-end
-          quote: >
-          description: ES6, Webpack, Vuejs | 
+        title: Front-end
+        quote: >
+        description: ES6, Webpack, Vuejs | 
       - layout: left
-          title: Back-end
-          quote: >
-          description: Ruby, Python | Rails, Django
+        title: Back-end
+        quote: >
+        description: Ruby, Python | Rails, Django
           
           
   - title: A Little More About Me
@@ -109,7 +109,7 @@ content:
       - Knitting
       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
+
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
