@@ -90,13 +90,15 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Front-end
-        quote: >
-        description: ES6 | Webpack | Vuejs
+        - layout: list
+          title: Front-end
+          quote: >
+          description: ES6, Webpack, Vuejs | 
       - layout: left
-        title: Back-end
-        quote: >
-        description: Ruby, Python | Rails, Django
+        - layout: list
+          title: Back-end
+          quote: >
+          description: Ruby, Python | Rails, Django
           
           
   - title: A Little More About Me
