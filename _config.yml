@@ -14,19 +14,13 @@ email: gusrl0515@gmail.com
 # Dark Mode (true/false/never)
 darkmode: true
 
-# Social links
-# twitter_username: facespics
+# SNS
 github_username:  Godrl
 # stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
 # flickr_username: jekyll
-# instagram_username: jameswgrant
 # linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
@@ -50,7 +44,7 @@ about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Ruby on Rails / Python & Django 기반의 1년차 웹 개발자입니다. 
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+#  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 # content:
 #   - title: Projects # Title for the section
