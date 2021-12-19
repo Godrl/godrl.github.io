@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 김현기
-title: 웹 개발자
+title: 웹,앱 개발자
 email: gusrl0515@gmail.com
 # website: www.github.com/sproogen/resume-theme
 
@@ -24,10 +24,10 @@ github_username: Godrl
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-  - title: itsgoingto.be
-    icon: fas fa-globe
-    url: https://www.itsgoingto.be
+#additional_links:
+#  - title: itsgoingto.be
+#    icon: fas fa-globe
+#    url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -42,7 +42,8 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Ruby on Rails / Python & Django 기반의 1년차 웹 개발자입니다.
+  Ruby on Rails 기반의 2년차 웹 개발자이며,
+  현재 Flutter & Dart 기반의 하이브리드앱 개발중입니다.
 
 
 content:
@@ -50,16 +51,32 @@ content:
     layout: list
     content:
       - layout: left
-        title: Front-end
+        title: Language
         quote: >
         description: |
-          - ES6, Webpack, Vuejs
-      - layout: left
-        title: Back-end
-        quote: >
-        description: |
+          - ES6
           - Ruby, Python
+          - Dart
+      - layout: left
+        title: Framework
+        quote: >
+        description: |
+          - Vuejs
           - Rails, Django
+          - Flutter
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: 13hz
+        sub_title: 웹,하이브리드앱 개발
+        caption: 2020.10 ~ 현재
+        quote: >
+        description: |
+          - API 개발
+          - 하이브리드앱 설계 및 개발
+          - 인앱브라우저에서 외부브라우저 호출처리
+          - Quill Editor 커스터마이징
 #   - title: A Little More About Me
 #     layout: text
 #     content: | # this will include new lines to allow paragraphs
@@ -85,18 +102,3 @@ sass:
 
 plugins:
   - jekyll-seo-tag
-
-
-#
-#title: Experience
-#  layout: list
-#  content:
-#    - layout: left
-#      title: 13Hz
-#      sub_title: 웹 개발자
-#      caption: 2020.10 ~ 현재
-#      quote: >
-#      description:
-#        - API 개발
-#        - 인앱브라우저에서 외부브라우저 호출처리
-#        - Quill Editor 커스터마이징
