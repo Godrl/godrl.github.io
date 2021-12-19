@@ -15,7 +15,7 @@ email: gusrl0515@gmail.com
 darkmode: true
 
 # SNS
-github_username:  Godrl
+github_username: Godrl
 # stackoverflow_username: "00000001"
 # flickr_username: jekyll
 # linkedin_username: jameswgrant
@@ -25,9 +25,9 @@ github_username:  Godrl
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  - title: itsgoingto.be
+    icon: fas fa-globe
+    url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -42,61 +42,24 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Ruby on Rails / Python & Django 기반의 1년차 웹 개발자입니다. 
+  Ruby on Rails / Python & Django 기반의 1년차 웹 개발자입니다.
 
-#  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
-# content:
-#   - title: Projects # Title for the section
-#     layout: list # Type of content section (list/text)
-#     content:
-#       - layout: top-middle
-#         title: Super awesome project
-#         link: github.com/sproogen
-#         # link_text: Project Website
-#         additional_links:
-#           - title:  sproogen/modern-resume-theme
-#             icon: fab fa-github
-#             url: github.com/sproogen/modern-resume-theme
-#           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-#           #   icon: fab fa-github
-#           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-#         quote: >
-#           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-#         description: | # this will include new lines to allow paragraphs
-#           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: 13Hz
-#         link: boringcompany.com
-#         link_text: boringcompany.com
-        sub_title: 웹 개발자
-        caption: 2020.10 ~ 현재
-        quote: >
-        description: 
-            - API 개발
-            - 인앱브라우저에서 외부브라우저 호출처리
-            - Quill Editor 커스터마이징
-
-  - title: Skill # Title for the section
-    layout: list # Type of content section (list/text)
+content:
+  - title: Skill
+    layout: list
     content:
       - layout: left
         title: Front-end
         quote: >
-        description: 
+        description: |
           - ES6, Webpack, Vuejs
       - layout: left
         title: Back-end
         quote: >
-        description: 
-          - Ruby, Python 
+        description: |
+          - Ruby, Python
           - Rails, Django
-          
-          
 #   - title: A Little More About Me
 #     layout: text
 #     content: | # this will include new lines to allow paragraphs
@@ -121,4 +84,19 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
+
+
+#
+#title: Experience
+#  layout: list
+#  content:
+#    - layout: left
+#      title: 13Hz
+#      sub_title: 웹 개발자
+#      caption: 2020.10 ~ 현재
+#      quote: >
+#      description:
+#        - API 개발
+#        - 인앱브라우저에서 외부브라우저 호출처리
+#        - Quill Editor 커스터마이징
